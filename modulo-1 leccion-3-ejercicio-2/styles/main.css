@@ -1,0 +1,19 @@
+.primerparrafo {
+    color: blue;
+    display: inline;
+    width: 100px;
+    height: 100px;
+   }
+.segundoparrafo {
+    color: chartreuse;
+    display:block;
+    width: 100;
+    height: 100px;
+
+}
+.tercerparrafo {
+    width: 100px;
+    height: 100px;
+    color: red;
+    display: inline;
+}
