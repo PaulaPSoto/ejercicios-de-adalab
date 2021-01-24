@@ -1,0 +1,10 @@
+* {
+    margin: 0;    
+}
+.row {
+    border-color: black;
+    
+}
+.content {
+    background-color: lightblue;
+}

@@ -1,0 +1,14 @@
+.container-fluid {
+   border-color: black 40px;
+}
+
+.row {
+    background-color: lightblue;
+    border-color: black;
+    margin: 10px;
+    margin-left: 10px;
+    
+}
+.c4 {
+    border-color: black; 
+}

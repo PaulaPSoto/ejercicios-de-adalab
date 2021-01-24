@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+}
+.container {
+    /* mirar height */
+    height:100vh;
+    display: grid;
+    grid-template-columns: 30% 70% /*repeat(2, 1fr)*/;
+    grid-template-areas: "cabeza cabeza" "menu contenido" "pie pie";
+    /* Es importe el orden.Si fueran 12 columnas tendria que repetir cabeza cabeza doce veces */
+    grid-template-rows: 20vh 60vh 20vh; 
+    /* grid-templete-rows: 20% 1fr 20%; */
+}
+/*.item {
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}  */
+
+
+.heder {
+    text-align: center;
+    background-color: palevioletred;
+    grid-area: cabeza;
+    
+  /* grid-column-start: 1;
+    grid-column-end: 13; */
+}
+.menu {
+    background-color: purple; 
+    text-align: center;
+    grid-area: menu;
+    /* grid-row-start: 2;  */
+    /* grid-row-end: 3;No necesita row porque por defecto coge solo una fila */
+    
+    
+}
+.content {
+    grid-area: contenido;
+    text-align: center;
+    background-color: orangered; 
+   
+}
+.footer {
+    grid-area: pie;
+    text-align: center;
+    background-color:lightblue;
+}
+

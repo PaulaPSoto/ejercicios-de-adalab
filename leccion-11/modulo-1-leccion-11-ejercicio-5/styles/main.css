@@ -1,0 +1,33 @@
+
+
+
+.header {
+    height: 20vw;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: palevioletred;
+    
+  
+}
+.menu {
+    box-sizing: border-box;
+    background-color: purple; 
+    text-align: center;
+   
+}
+
+.content {
+    height: 20vw;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: orangered; 
+}
+   
+.footer {
+    height: 20vw;
+    text-align: center;
+    box-sizing: border-box;
+    background-color:lightblue;
+   
+}
+

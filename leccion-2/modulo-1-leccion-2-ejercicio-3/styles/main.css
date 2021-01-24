@@ -1,0 +1,22 @@
+.links {
+    color: red;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Rubik', sans-serif
+}
+.lorem {
+    background-color: grey;
+    border: 50px;
+    border-radius: 20px;;
+    color: white;
+    display: inline-block;
+    margin-bottom: 1em;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.yo {
+    margin-inline-start: 10px;
+    margin-inline-end: 30px;
+    margin-block-start: 40px;
+    margin-block-end: 15px;
+}
